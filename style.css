@@ -1,0 +1,114 @@
+/* Badge Styles */
+.badge.sold-out {
+    background-color: red;
+}
+
+.badge.tge {
+    background-color: orange;
+}
+
+.date {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    color: white;
+    background: #2B2B54;
+    transition: background 0.3s;
+}
+
+.details-btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.details-btn:hover {
+    background-color: #0056b3;
+}
+
+.description a {
+    color: #00A3E0;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        background-color: #f8d7da;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .info h3 {
+        font-size: 16px;
+    }
+
+    .details-btn {
+        padding: 8px 12px;
+    }
+}
+
+/* Medium devices (tablets, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        background-color: #fff3cd;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .info h3 {
+        font-size: 18px;
+    }
+
+    .details-btn {
+        padding: 9px 14px;
+    }
+}
+
+/* Large devices (desktops, 768px and above) */
+@media (min-width: 768px) {
+    body {
+        background-color: #d4edda;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .info h3 {
+        font-size: 20px;
+    }
+
+    .details-btn {
+        padding: 10px 15px;
+    }
+}
